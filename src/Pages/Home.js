@@ -1,13 +1,15 @@
+import { faBootstrap, faCss3Alt, faHtml5, faJs, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+      <div class="hero my-28 bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse p-0">
           <img
-            src="https://i.ibb.co/qJFv188/Whats-App-Image-2022-06-09-at-11-26-22-PM.png"
-            class="max-w-sm rounded-lg shadow-2xl"
+            src="https://i.ibb.co/cb3C6T7/Whats-App-Image-2022-06-09-at-11-26-22-PM-removebg-preview-3.png"
+            class="rounded-lg mt-[-72px]"
           />
           <div>
             <h1 class="text-4xl font-bold">Hello! I'm</h1>
@@ -40,6 +42,51 @@ const Home = () => {
           </div>
         </div>
         </div>
+      </div>
+      <div className="m-10">
+          <h1 className="text-4xl text-center pb-8">My Skills</h1>
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-5 py-10">
+            <div className="flex items-center gap-2">
+                <FontAwesomeIcon icon={faHtml5} className="w-8 h-8"/>
+                <p className="text-xl">HTML5</p>
+                <progress class="progress w-96 h-4" value="70" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                <FontAwesomeIcon icon={faCss3Alt} className="w-8 h-8"/>
+                <p className="text-xl">CSS</p>
+                <progress class="progress w-96 h-4" value="70" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                <FontAwesomeIcon icon={faJs} className="w-8 h-8"/>
+                <p className="text-xl">JavaScript</p>
+                <progress class="progress w-96 h-4" value="60" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                <FontAwesomeIcon icon={faReact} className="w-8 h-8"/>
+                <p className="text-xl">React</p>
+                <progress class="progress w-96 h-4" value="60" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                <FontAwesomeIcon icon={faNodeJs} className="w-8 h-8"/>
+                <p className="text-xl">Node JS</p>
+                <progress class="progress w-96 h-4" value="65" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                <FontAwesomeIcon icon={faBootstrap} className="w-8 h-8"/>
+                <p className="text-xl">Bootstrape</p>
+                <progress class="progress w-96 h-4" value="90" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                
+                <p className="text-xl">Tailwind CSS</p>
+                <progress class="progress w-96 h-4" value="90" max="100"></progress>
+            </div>
+            <div className="flex items-center gap-2 mb-5">
+                
+                <p className="text-xl">MongoDB</p>
+                <progress class="progress w-96 h-4" value="40" max="100"></progress>
+            </div>
+            </div>
       </div>
     </div>
   );
