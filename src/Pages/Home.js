@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <div className="m-10 py-10">
         <h1 className="text-4xl text-center mb-6">Service Provide For My Clients</h1>
-        <div className="grid justify-items-center">
+        <div className="grid lg:justify-items-center">
         <div class="card w-96 bg-neutral text-primary-content grid justify-items-center">
           <div class="card-body">
             <h2 class="card-title">Development</h2>
