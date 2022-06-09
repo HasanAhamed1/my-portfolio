@@ -1,8 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 
 const ContactMe = () => {
+    const [result, setResult] = useState(false);
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -15,6 +16,8 @@ const ContactMe = () => {
           }, (error) => {
               console.log(error.text);
           });
+          e.target.reset();
+          setResult(true);
       };
 
     return (
@@ -46,6 +49,7 @@ const ContactMe = () => {
             <input type="description" placeholder="Your message" required name="message" class="input input-bordered h-24 w-full max-w-xs my-3" />
             <br />
             <input type="submit" placeholder="Submit" class="btn input-bordered w-full max-w-xs" />
+            <ToastContainer />
             </form>
             </div>
             </div>
