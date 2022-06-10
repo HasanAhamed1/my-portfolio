@@ -18,12 +18,12 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/projects' element={<Projects></Projects>}></Route>
-        <Route path='/contactme' element={<ContactMe></ContactMe>}></Route>
-        <Route path='/showprojects' element={<ShowProjects></ShowProjects>}></Route>
-        <Route path='/project/:projectId' element={<ProjectDetail></ProjectDetail>}></Route>
-        <Route path='/aboutme' element={<AboutMe></AboutMe>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='projects' element={<Projects></Projects>}></Route>
+        <Route path='contactme' element={<ContactMe></ContactMe>}></Route>
+        <Route path='showprojects' element={<ShowProjects></ShowProjects>}></Route>
+        <Route path='project/:projectId' element={<ProjectDetail></ProjectDetail>}></Route>
+        <Route path='aboutme' element={<AboutMe></AboutMe>}></Route>
+        <Route path='blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
       
       
