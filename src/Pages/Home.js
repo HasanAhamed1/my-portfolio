@@ -13,7 +13,7 @@ const Home = () => {
           />
           <div>
             <h1 class="text-4xl font-bold">Hello! I'm</h1>
-            <h1 class="text-5xl font-bold">Md. Hasan Ahamed</h1>
+            <h1 class="text-5xl font-bold animate-pulse">Md. Hasan Ahamed</h1>
             <p class="py-6">Junior Web Developer</p>
 
             <a
@@ -26,12 +26,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="m-10 py-10">
+      {/* <div className="m-10 py-10">
         <h1 className="text-4xl text-center mb-6">Service Provide For My Clients</h1>
-        <div className="grid lg:justify-items-center">
-        <div class="card w-96 bg-neutral text-primary-content grid justify-items-center">
-          <div class="card-body">
-            <h2 class="card-title">Development</h2>
+        <div className="">
+        <div class="text-primary-content grid justify-items-center">
+          
+            <h2 class="">Development</h2>
             <ul className="list-disc">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -39,10 +39,10 @@ const Home = () => {
                 <li>Node JS</li>
                 <li>React</li>
             </ul>
-          </div>
+          
         </div>
         </div>
-      </div>
+      </div> */}
       <div className="m-10">
           <h1 className="text-4xl text-center pb-8">My Skills</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-5 lg:py-10">

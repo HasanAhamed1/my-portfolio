@@ -27,15 +27,15 @@ const ContactMe = () => {
             <div className='grid gap-5 lg:mx-44'>
                 <div className='p-8 bg-slate-700 text-center'>
                     <h3 className='text-lg text-white font-bold'>Phone:</h3>
-                    <p className='text-lg'>01625700226</p>
+                    <p className='text-lg text-gray-300'>01625700226</p>
                 </div>
                 <div className='p-8 bg-slate-700 text-center'>
                     <h3 className='text-lg text-white font-bold'>Email:</h3>
-                    <a href="hasanahmed95695@gmail.com" className='text-lg'>hasanahmed95695@gmail.com</a>
+                    <a href="hasanahmed95695@gmail.com" className='text-lg text-gray-300'>hasanahmed95695@gmail.com</a>
                 </div>
                 <div className='p-8 bg-slate-700 text-center'>
                     <h3 className='text-lg text-white font-bold'>Address:</h3>
-                    <p className='text-lg'>Narayanganj, Dhaka</p>
+                    <p className='text-lg text-gray-300'>Narayanganj, Dhaka</p>
                 </div>
             </div>
             <div>

@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 sticky top-0">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -27,13 +28,19 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+              <Link to='/'>Home</Link>
               </li>
               <li>
-                <a>Projects</a>
+              <Link to='/projects'>Projects</Link>
               </li>
               <li>
-                <a>Contact Me</a>
+              <Link to='/contactme'>Contact Me</Link>
+              </li>
+              <li>
+              <Link to='/aboutme'>About Me</Link>
+              </li>
+              <li>
+              <Link to='/blogs'>Blogs</Link>
               </li>
             </ul>
           </div>
@@ -42,18 +49,24 @@ const Navbar = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-                <a>Projects</a>
+                <Link to='/projects'>Projects</Link>
               </li>
             <li>
-              <a>Contact Me</a>
+            <Link to='/contactme'>Contact Me</Link>
             </li>
+            <li>
+              <Link to='/aboutme'>About Me</Link>
+              </li>
+            <li>
+              <Link to='/blogs'>Blogs</Link>
+              </li>
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn btn-wide">Hire Me</a>
+          <a class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Hire Me</a>
         </div>
       </div>
     </div>
