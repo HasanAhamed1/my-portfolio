@@ -6,16 +6,30 @@ const ProjectDetail = () => {
   const { projectId } = useParams();
   const [project] = useDetail(projectId);
   return (
-    <div className="grid gap-5 justify-items-center m-24">
-      <div class="w-64 rounded-xl">
-        <img src={project.img} alt="" />
+    
+        <div class="card bg-base-100 shadow-xl m-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <figure>
+        <img className="" src={project.img2} alt="Shoes" />
+      </figure>
+      <figure>
+        <img className="" src={project.img3} alt="Shoes" />
+      </figure>
+      <figure>
+        <img className="" src={project.img4} alt="Shoes" />
+      </figure>
       </div>
-      <h1>{project.name}</h1>
-      <a href={project.livesite} target="_blank">Live Site</a>
-      <a href={project.gitClient} target="_blank">GitLink (Client)</a>
-      <a href={project.gitServer} target="_blank">GitLink (Server)</a>
-      <p>{project.description}</p>
+      <div class="card-body">
+        <h2 class="card-title">{project.name}</h2>
+        <div class="card-actions">
+        <a className="btn" href={project.livesite} target="_blank">Live Site</a>
+        <a className="btn" href={project.gitClient} target="_blank">GitLink (Client)</a>
+      <a className="btn" href={project.gitServer} target="_blank">GitLink (Server)</a>
     </div>
+      <p>{project.description}</p>
+      </div>
+    </div>
+      
   );
 };
 

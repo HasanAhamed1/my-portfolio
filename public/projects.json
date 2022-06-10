@@ -3,27 +3,35 @@
         
         "name": "Bike Tools",
         "img": "https://i.ibb.co/d2NY3z9/Web-capture-9-6-2022-20222-localhost.jpg",
+        "img2": "https://i.ibb.co/hB8PxgT/Web-capture-11-6-2022-2512-localhost.jpg",
+        "img3": "https://i.ibb.co/h8wyHBF/Web-capture-11-6-2022-31251-localhost.jpg",
+        "img4": "https://i.ibb.co/r5K9b9W/Web-capture-11-6-2022-32711-bike-spot-web-app.jpg",
         "livesite": "https://bike-spot.web.app/",
         "gitClient": "https://github.com/HasanAhamed1/Bike_Tools",
         "gitServer": "https://github.com/HasanAhamed1/bike_tools_server",
-        "description": "Sign Up option, Log in by google acount and email and pass, There is an admin panel and user panel, Admin can make anyone admin and admin can update and change"
+        "description": "Sign Up option, Log in by google acount and email and pass, There is an admin panel and user panel, Admin can make anyone admin and admin can update and change."
     },
     {
         
         "name": "Coffee Shop",
         "img": "https://i.ibb.co/0V9MDxv/Web-capture-9-6-2022-203251-verdant-faun-275d7d-netlify-app.jpg",
+        "img2": "https://i.ibb.co/Xt4Xhqk/Web-capture-11-6-2022-33832-verdant-faun-275d7d-netlify-app.jpg",
+        "img3": "https://i.ibb.co/GHQJHw1/Web-capture-11-6-2022-34029-verdant-faun-275d7d-netlify-app.jpg",
+        "img4": "https://i.ibb.co/QrCSnkN/Web-capture-11-6-2022-34127-verdant-faun-275d7d-netlify-app.jpg",
         "livesite": "https://verdant-faun-275d7d.netlify.app/",
         "gitClient": "https://github.com/HasanAhamed1/coffe-shop",
-        "gitServer": "",
-        "description": ""
+        "description": "This is only front-end project, here we have items, products section and only a contact us form, we have a review section also."
     },
     {
         
         "name": "Techno_Mart",
         "img": "https://i.ibb.co/NTRT28t/Web-capture-9-6-2022-201620-techno-mart-authenticati-7da11-web-app.jpg",
+        "img2": "https://i.ibb.co/HBc7MvV/Web-capture-11-6-2022-3436-techno-mart-authenticati-7da11-web-app.jpg",
+        "img3": "https://i.ibb.co/hVSwtJD/Web-capture-11-6-2022-34440-techno-mart-authenticati-7da11-web-app.jpg",
+        "img4": "https://i.ibb.co/tH95DLp/Web-capture-11-6-2022-34531-techno-mart-authenticati-7da11-web-app.jpg",
         "livesite": "https://techno-mart-authenticati-7da11.web.app/",
         "gitClient": "https://github.com/HasanAhamed1/techno_mart",
         "gitServer": "https://github.com/HasanAhamed1/techno_mart_server",
-        "description": "After registration one can login and logout by their credintial, It helps you to maintain products in a warehouse and You can update and change data, This website provide you customer's demand"
+        "description": "After registration one can login and logout by their credintial, It helps you to maintain products in a warehouse and You can update and change data, This website provide you customer's demand."
     }
 ]
