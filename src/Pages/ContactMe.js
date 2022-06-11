@@ -21,7 +21,7 @@ const ContactMe = () => {
       };
 
     return (
-        <div className='m-10 py-8'>
+        <div className='m-10 lg:py-8'>
             <h1 className='text-4xl mb-10 text-center'>Contact me</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
             <div className='grid gap-5 lg:mx-44'>

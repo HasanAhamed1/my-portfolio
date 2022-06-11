@@ -11,7 +11,7 @@ const Home = () => {
             src="https://i.ibb.co/cb3C6T7/Whats-App-Image-2022-06-09-at-11-26-22-PM-removebg-preview-3.png"
             class="rounded-lg mt-[-72px]"
           />
-          <div>
+          <div className="m-5">
             <h1 class="text-4xl font-bold">Hello! I'm</h1>
             <h1 class="text-5xl font-bold animate-pulse">Md. Hasan Ahamed</h1>
             <p class="py-6">Junior Web Developer</p>
@@ -46,45 +46,45 @@ const Home = () => {
       <div className="m-10">
           <h1 className="text-4xl text-center pb-8">My Skills</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-5 lg:py-10">
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faHtml5} className="w-8 h-8"/>
-                <p className="text-xl">HTML5</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="70" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faHtml5} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">HTML5</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="70" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faCss3Alt} className="w-8 h-8"/>
-                <p className="text-xl">CSS</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="70" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faCss3Alt} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">CSS</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="70" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faJs} className="w-8 h-8"/>
-                <p className="text-xl">JavaScript</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="60" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faJs} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">JavaScript</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="60" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faReact} className="w-8 h-8"/>
-                <p className="text-xl">React</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="60" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faReact} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">React</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="60" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faNodeJs} className="w-8 h-8"/>
-                <p className="text-xl">Node JS</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="65" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faNodeJs} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">Node JS</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="65" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
-                <FontAwesomeIcon icon={faBootstrap} className="w-8 h-8"/>
-                <p className="text-xl">Bootstrape</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="90" max="100"></progress>
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
+                <FontAwesomeIcon icon={faBootstrap} className="lg:w-8 lg:h-8"/>
+                <p className="lg:text-xl">Bootstrape</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="90" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
                 
-                <p className="text-xl">Tailwind CSS</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="90" max="100"></progress>
+                <p className="lg:text-xl">Tailwind CSS</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="90" max="100"></progress>
             </div>
-            <div className="flex items-center gap-2 mb-5">
+            <div className="flex items-center gap-2 mb-2 lg:mb-5">
                 
-                <p className="text-xl">MongoDB</p>
-                <progress class="progress w-64 lg:w-96 h-4" value="40" max="100"></progress>
+                <p className="lg:text-xl">MongoDB</p>
+                <progress class="progress w-56 lg:w-96 lg:h-4" value="40" max="100"></progress>
             </div>
             </div>
       </div>
