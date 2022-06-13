@@ -1,6 +1,8 @@
 import { faBootstrap, faCss3Alt, faHtml5, faJs, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import ContactMe from "./ContactMe";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -87,6 +89,12 @@ const Home = () => {
                 <progress class="progress w-56 lg:w-96 lg:h-4" value="40" max="100"></progress>
             </div>
             </div>
+      </div>
+      <div>
+        <Projects></Projects>
+      </div>
+      <div>
+        <ContactMe></ContactMe>
       </div>
     </div>
   );
